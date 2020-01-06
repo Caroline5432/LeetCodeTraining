@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    name: dataSource
+    url: jdbc:postgresql://172.16.22.37:6432/db_hybzk
+    username: gpadmin_zbjs
+    password: 123456
+    #com.thunisoft.ArteryBase.Driver
+    driver-class-name: org.postgresql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      #Druid连接池配置
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 5
+      validation-query: select 1
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: false
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      max-evictable-idle-time-millis: 500000
+server:
+  port: 10200
+  servlet:
+    context-path: /leetTest
