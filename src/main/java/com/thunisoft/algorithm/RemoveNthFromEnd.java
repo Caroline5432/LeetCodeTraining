@@ -3,7 +3,6 @@ package com.thunisoft.algorithm;
 import java.io.UnsupportedEncodingException;
 import java.util.regex.Pattern;
 
-import org.apache.commons.codec.binary.Base64;
 
 /**
  * @author zhangliujie
