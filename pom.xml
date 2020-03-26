@@ -103,6 +103,24 @@
             <version>9.3-1103</version>
         </dependency>
 
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- UIm权限 -->
+        <dependency>
+            <groupId>com.thunisoft.AAP</groupId>
+            <artifactId>commons-uim-sdk-adapter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thunisoft.AAP</groupId>
+            <artifactId>commons-aap-appconfig</artifactId>
+            <version>1.2.0</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
