@@ -15,7 +15,7 @@ import java.io.IOException;
 public class NewFileTest {
 
     public static void main(String[] args) {
-        /*String sourceFilePath = "";
+        String sourceFilePath = "";
         String targetFilePath = "F:\\export_dadyxt\\xml";
         FileInputStream fis = null;
         BufferedInputStream bis = null;
@@ -40,12 +40,7 @@ public class NewFileTest {
             fis.close();
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
-
-        String filename = "DA_11_1862000_1.xml";
-        int indexOfPoint = filename.indexOf(".");
-        String dahjz = filename.substring(indexOfPoint-1, indexOfPoint);
-        System.out.println(dahjz);
+        }
     }
 
 }

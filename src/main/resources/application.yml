@@ -17,9 +17,9 @@ spring:
       test-on-return: false
       test-while-idle: false
       time-between-eviction-runs-millis: 60000
-      min-evictable-idle-time-millis: 300000
-      max-evictable-idle-time-millis: 500000
+#      min-evictable-idle-time-millis: 300000
+#      max-evictable-idle-time-millis: 500000
 server:
-  port: 10200
+  port: 10211
   servlet:
     context-path: /leetTest
