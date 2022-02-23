@@ -46,6 +46,8 @@ public class DateTest {
         System.out.println(xml.length());
 
         System.out.println(new Date().getTime());
+
+        System.out.println("290100000000000000290120180100002891".length());
     }
 
 }
