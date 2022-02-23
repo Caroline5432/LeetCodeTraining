@@ -1,10 +1,8 @@
 package com.thunisoft.test;
 
-import javax.xml.transform.Source;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
