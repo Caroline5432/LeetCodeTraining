@@ -2,9 +2,9 @@
 <configuration scan="true">
     <!--<property name="log_dir" value="logs/sjcjgj" />-->
     <property name="maxHistory" value="7" />
-    <define name="LOG_HOME" class="com.thunisoft.logback.LogbackHomeGetProperty" />
-    <define name="IP" class="com.thunisoft.logback.LogbackIpGetProperty" />
-    <define name="PORT" class="com.thunisoft.logback.LogbackPortGetProperty" />
+    <define name="LOG_HOME" class="com.training.logback.LogbackHomeGetProperty" />
+    <define name="IP" class="com.training.logback.LogbackIpGetProperty" />
+    <define name="PORT" class="com.training.logback.LogbackPortGetProperty" />
 
     <springProperty scope="context" name="APP_NAME" source="logback.appname" defaultValue="leetCode"/>
     <springProperty scope="context" name="logback.common.level" source="logback.common.level" defaultValue="info"/>
@@ -70,13 +70,13 @@
     </appender>
 
     <logger name="org.springframework" level="error" />
-    <logger name="com.thunisoft.crs" level="${logback.common.level}" />
-    <logger name="com.thunisoft.artery" level="${logback.common.level}" />
+    <logger name="com.training.crs" level="${logback.common.level}" />
+    <logger name="com.training.artery" level="${logback.common.level}" />
     <logger name="org.apache" level="error" />
-    <logger name="com.thunisoft.summer" level="${logback.common.level}" />
-    <logger name="com.thunisoft.test" level="${logback.common.level}" />
+    <logger name="com.training.summer" level="${logback.common.level}" />
+    <logger name="com.training.test" level="${logback.common.level}" />
     <logger name="org.quartz" level="error" />
-    <logger name="com.thunisoft.aap.uim.client.event.hlp" level="error" />
+    <logger name="com.training.aap.uim.client.event.hlp" level="error" />
 
 
     <!-- sql -->
