@@ -1,4 +1,4 @@
-package com.training.algorithm;
+package com.training.algorithm.test;
 
 /**
  * @Description:十进制转二进制

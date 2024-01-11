@@ -1,4 +1,4 @@
-package com.training.algorithm;
+package com.training.algorithm.test;
 
 import java.util.ArrayList;
 import java.util.HashMap;

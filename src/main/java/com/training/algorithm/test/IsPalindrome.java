@@ -1,4 +1,4 @@
-package com.training.algorithm;
+package com.training.algorithm.test;
 
 /**
  * @author zhangliujie

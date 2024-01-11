@@ -1,4 +1,4 @@
-package com.training.algorithm;
+package com.training.algorithm.test;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
